@@ -1,0 +1,28 @@
+[
+    {
+        "label": "gcd",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "A_Exciting_Bets",
+        "description": "A_Exciting_Bets",
+        "peekOfCode": "def solve(a: int, b: int):\n    moves, res = 0,0\n    if a != b:\n        res = abs(a-b)\n        moves = min(a%res, res-a%res)        \n    return f\"{res} {moves}\"\nt = int(input())\nfor _ in range(t):\n    a, b = tuple(map(int, input().split()))\n    print(solve(a, b))",
+        "detail": "A_Exciting_Bets",
+        "documentation": {}
+    },
+    {
+        "label": "t",
+        "kind": 5,
+        "importPath": "A_Exciting_Bets",
+        "description": "A_Exciting_Bets",
+        "peekOfCode": "t = int(input())\nfor _ in range(t):\n    a, b = tuple(map(int, input().split()))\n    print(solve(a, b))",
+        "detail": "A_Exciting_Bets",
+        "documentation": {}
+    }
+]

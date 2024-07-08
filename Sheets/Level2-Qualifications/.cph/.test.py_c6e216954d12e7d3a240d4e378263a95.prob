@@ -1,0 +1,1 @@
+{"name":"Local: test","url":"/home/ahmedqassem/Desktop/cp/contests/Level2-Qualifications/test.py","tests":[{"id":1719751255712,"input":"5","output":"1"},{"id":1719751258545,"input":"1000","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/ahmedqassem/Desktop/cp/contests/Level2-Qualifications/test.py","group":"local","local":true}
