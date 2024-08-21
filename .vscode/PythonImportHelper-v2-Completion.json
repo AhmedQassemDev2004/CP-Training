@@ -1,0 +1,64 @@
+[
+    {
+        "label": "gcd",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "rates.900.A_Exciting_Bets",
+        "description": "rates.900.A_Exciting_Bets",
+        "peekOfCode": "def solve(a: int, b: int):\n    moves, res = 0,0\n    if a != b:\n        res = abs(a-b)\n        moves = min(a%res, res-a%res)        \n    return f\"{res} {moves}\"\nt = int(input())\nfor _ in range(t):\n    a, b = tuple(map(int, input().split()))\n    print(solve(a, b))",
+        "detail": "rates.900.A_Exciting_Bets",
+        "documentation": {}
+    },
+    {
+        "label": "t",
+        "kind": 5,
+        "importPath": "rates.900.A_Exciting_Bets",
+        "description": "rates.900.A_Exciting_Bets",
+        "peekOfCode": "t = int(input())\nfor _ in range(t):\n    a, b = tuple(map(int, input().split()))\n    print(solve(a, b))",
+        "detail": "rates.900.A_Exciting_Bets",
+        "documentation": {}
+    },
+    {
+        "label": "valid",
+        "kind": 2,
+        "importPath": "clean",
+        "description": "clean",
+        "peekOfCode": "def valid(file_name):\n    valid_extensions = ('.cpp', '.hpp', '.h', '.c', '.cc', '.py', '.clang-format')\n    return file_name.endswith(valid_extensions)\n# Define the function to remove non-C++ files\ndef remove_non_valid_files(directory):\n    logging.debug(f'Starting to clean directory: {directory}')\n    for root, dirs, files in os.walk(directory):\n        logging.debug(f'Entering directory: {root}')\n        for file in files:\n            file_path = os.path.join(root, file)",
+        "detail": "clean",
+        "documentation": {}
+    },
+    {
+        "label": "remove_non_valid_files",
+        "kind": 2,
+        "importPath": "clean",
+        "description": "clean",
+        "peekOfCode": "def remove_non_valid_files(directory):\n    logging.debug(f'Starting to clean directory: {directory}')\n    for root, dirs, files in os.walk(directory):\n        logging.debug(f'Entering directory: {root}')\n        for file in files:\n            file_path = os.path.join(root, file)\n            if not valid(file):\n                try:\n                    os.remove(file_path)\n                    logging.info(f'Removed file: {file_path}')",
+        "detail": "clean",
+        "documentation": {}
+    }
+]

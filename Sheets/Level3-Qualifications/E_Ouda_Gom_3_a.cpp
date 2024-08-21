@@ -48,8 +48,7 @@ auto solve(int tc) {
     p[i] += p[i - 1];
   }
 
-  int ans = 1;
-  int m = 1e9 + 7;
+  int ans = 1, m = 1e9 + 7;
   for (int i = 0; i < n; i++) {
     a[i] += p[i];
     if (a[i] > 0) {

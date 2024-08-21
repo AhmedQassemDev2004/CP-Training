@@ -1,10 +1,57 @@
-//  D - Knapsack 1
+#include <bits/stdc++.h>
+#include <ext/pb_ds/assoc_container.hpp>
+#include <ext/pb_ds/tree_policy.hpp>
 
-#include<bits/stdc++.h>
-
+using namespace __gnu_pbds;
 using namespace std;
 
-int main() {
+template<typename T>
+using ordered_set =
+        tree <T, null_type, less<T>, rb_tree_tag, tree_order_statistics_node_update>;
+
+
+#define FAST_IO ios_base::sync_with_stdio(false), cin.tie(0);
+#define int long long
+#define double long double
+#define all(v) v.begin(), v.end()
+#define rall(v) v.rbegin(), v.rend()
+#define pii pair<int, int>
+#define f first
+#define s second
+
+#define TESTS false
+
+auto solve(int tc) {
+    int n, k;
+    cin >> n >> k;
+
+    vector<int> w(n), v(n);
+    for (int i = 0; i < n; ++i) {
+        cin >> w[i] >> v[i];
+    }
+
+    vector<int> dp(k + 1, 0);
+    for (int i = 0; i < n; ++i) {
+        for (int j = k; j >= w[i]; --j) {
+            dp[j] = max(dp[j], dp[j - w[i]] + v[i]);
+        }
+    }
+
+    cout << dp[k];
+}
+
+signed main() {
+    FAST_IO
+
+#if TESTS
+    int t;
+    cin >> t;
+    for (int tc = 0; tc < t; tc++) {
+      solve(tc + 1);
+    }
+#else
+    solve(1);
+#endif
 
     return 0;
 }

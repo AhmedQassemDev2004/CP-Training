@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f0a51370-adcb-4906-82f5-367e0b89d867" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Recursion &amp; Backtracking/.autocp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion &amp; Backtracking/A_3N1_Series.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion &amp; Backtracking/B_Binary_search.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion &amp; Backtracking/C_Fast_power.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion &amp; Backtracking/Count_Values.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion &amp; Backtracking/D_Merge_sort.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion &amp; Backtracking/E_Pyramid.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion &amp; Backtracking/F_Multiplication_of_Matrices.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion &amp; Backtracking/G_Flood_Fill.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion &amp; Backtracking/H_Go_from_S_to_E.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion &amp; Backtracking/Lucky.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.autocp" beforeDir="false" afterPath="$PROJECT_DIR$/.autocp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Recursion &amp; Backtracking/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Recursion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Recursion &amp; Backtracking/.idea/Recursion.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Recursion &amp; Backtracking/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Recursion &amp; Backtracking/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/c_cpp_properties.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Recursion &amp; Backtracking/.vscode/c_cpp_properties.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Recursion &amp; Backtracking/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Recursion &amp; Backtracking/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maze_runner.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Recursion &amp; Backtracking/Maze_runner.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CP_TEMPLATE_CPP" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file:///usr/include/c++/13/bits/std_function.h" root0="SKIP_INSPECTION" />
+    <setting file="file:///usr/include/c++/13/bits/stl_vector.h" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2iv5qGvfUCJr0MNfBzNEeiHKARV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "AutoCp Solution.A. 3N+1 Series.executor": "Run",
+    "AutoCp Solution.B. Binary search.executor": "Run",
+    "AutoCp Solution.C. Fast power.executor": "Run",
+    "AutoCp Solution.Count_Values.executor": "Run",
+    "AutoCp Solution.D. Merge sort.executor": "Run",
+    "AutoCp Solution.E. Pyramid.executor": "Run",
+    "AutoCp Solution.F. Multiplication of Matrices.executor": "Run",
+    "AutoCp Solution.G. Flood Fill.executor": "Run",
+    "AutoCp Solution.H. Go from S to E.executor": "Run",
+    "AutoCp Solution.H_Go_from_S_to_E.executor": "Run",
+    "AutoCp Solution.Lucky.executor": "Run",
+    "AutoCp Solution.Maze_runner.executor": "Run",
+    "AutoCp Solution.tutorial.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.advertisement.text.has.clang-format": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/ahmedqassem/Desktop/cp/topics/Recursion & Backtracking",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../Recursion &amp; Backtracking" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0a51370-adcb-4906-82f5-367e0b89d867" name="Changes" comment="" />
+      <created>1720358398086</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720358398086</updated>
+      <workItem from="1720358399107" duration="2581000" />
+      <workItem from="1720454653768" duration="241000" />
+      <workItem from="1720454900072" duration="130000" />
+      <workItem from="1720455033030" duration="2469000" />
+      <workItem from="1720476720476" duration="532000" />
+      <workItem from="1720479696592" duration="7000" />
+      <workItem from="1720479859711" duration="22000" />
+      <workItem from="1720480125299" duration="64000" />
+      <workItem from="1720538227778" duration="2663000" />
+      <workItem from="1720541522844" duration="380000" />
+      <workItem from="1720542561465" duration="10461000" />
+      <workItem from="1720563007155" duration="3906000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

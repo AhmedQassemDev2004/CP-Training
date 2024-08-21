@@ -25,7 +25,7 @@ int n, m, ex, ey, sx, sy;
 bool found = false;
 
 bool rec(vector <vector<char>> &a, vector <vector<bool>> &visited, int i, int j) {
-    if (i <= 0 || i > n || j <= 0 || j > m || visited[i][j] || a[i][j] == '*') {
+    if (found || i <= 0 || i > n || j <= 0 || j > m || visited[i][j] || a[i][j] == '*') {
         return false;
     }
 

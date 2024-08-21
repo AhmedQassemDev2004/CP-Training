@@ -14,12 +14,6 @@ using ordered_set =
 #define double long double
 #define all(v) v.begin(), v.end()
 #define rall(v) v.rbegin(), v.rend()
-#define sort(a) sort(all(a))
-#define read_arr(arr) for(auto &it: arr) cin>>it;
-#define print_arr(arr) for(auto &it: arr) {cout << *it;cout<<' ';} cout << '\n';
-#define read_set(st, n) while(n--){int temp;cin>>temp;st.insert(temp);}
-#define max_heap(type) priority_queue<type>
-#define min_heap(type) priority_queue<type, vector<type>, ::greater<type>>
 #define pii pair<int, int>
 #define f first
 #define s second
@@ -28,7 +22,7 @@ using ordered_set =
 #define TESTS false
 
 auto solve(int tc) {
-  // TODO: Write here
+  // TODO: Start here
 }
 
 signed main() {
